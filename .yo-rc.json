@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitCompany": "",
+    "baseName": "LMSADMIN",
+    "packageName": "com.lms.admin",
+    "packageFolder": "com/lms/admin",
+    "serverPort": 9999,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../projectlms",
+    "cacheProvider": "infinispan",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "ar-ly",
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.4.1",
+    "jwtSecretKey": "MjU3Zjg1NzZhYTFmNjhkOThjZGM4ODJmN2IwOTNmMjcyNzk5MjgyYjEyNzk2NGU3Njk4ZjUwZmZiZjU0YzQwNjBiYjE3NTc3YjAwMTczMTgxNzE0Y2JjNDRhMjNiNzY0MTk3NDU1MmQ0ZDgzYjNiZjRhM2VmYTYxN2FiNTYyMmI=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "talaghzi",
+  "repository-name": "LMS-ADMIN"
+}

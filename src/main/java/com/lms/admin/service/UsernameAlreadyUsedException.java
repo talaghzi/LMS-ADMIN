@@ -1,0 +1,9 @@
+package com.lms.admin.service;
+
+public class UsernameAlreadyUsedException extends RuntimeException {
+
+    public UsernameAlreadyUsedException() {
+        super("Login name already used!");
+    }
+
+}
